@@ -140,5 +140,82 @@
 
 // DOM Document Object Model ======================================================
 
-document.querySelector('h1').style.color = 'red';
-document.querySelector('h1').innerHTML = 'Biplob Jabery';
+// document.querySelector('h1').style.color = 'red';
+// document.querySelector('h1').innerHTML = 'Biplob Jabery';
+
+// href --------------
+// let a = document.querySelector('a');
+// console.log(a.getAttribute('id'))
+// console.log(a.getAttribute('href'))
+// a.href = 'facebook.com'
+// a.innerText = 'Facebook'
+// console.log(a.href)
+
+//src---------------
+
+// let img = document.querySelector('img');
+
+// let attr = img.getAttribute('src');
+// img.setAttribute('src', 'www.freeimage.jpg')
+
+// let attr = img.src;
+// img.scr = 'www.freeimage.jpg'
+
+// console.log(attr);
+
+
+// style---------------
+// let heading = document.querySelector('h2')
+// heading.style.background = 'black'
+// heading.style.color = 'white'
+// heading.style.padding = '20px 10px'
+// heading.innerText = 'javascript Tutorials'
+// heading.innerHTML = 'Hello'
+
+// Show css apply style property------------
+// const h2 = document.querySelector('h2')
+// const showStyle = window.getComputedStyle(h2);
+// console.log(showStyle.color)
+
+
+// ParentElements Children child ---------------
+
+// let li = document.querySelector('li')
+
+// console.log(li)
+// console.log(li.nextElementSibling) // porer element ke dore
+// console.log(li.previousElementSibling) // porer element ke dore
+// console.log(li.nextSibling)
+
+// Class list-------------
+
+// const ul = document.querySelector('ul')
+// console.log(ul.classList)
+
+// video 18
+
+// let newElement = document.createElement('li')
+// newElement.innerText = 'This is a new Element'
+
+// let ul = document.querySelector('ul')
+// let lis = document.querySelectorAll('li')
+
+// // ul.appendChild(newElement, ul)
+
+
+// ul.appendChild(newElement)
+// ul.appendChild(newElement, ul)
+
+// console.log(newElement)
+
+
+// let title = document.querySelector('.test')
+// title.innerHTML = 'Biplob Jabery'
+// // title.innerText = 'Biplob Jabery'
+
+// const inputs = document.querySelectorAll('input')
+
+// console.log(inputs[0].value)
+
+
+
